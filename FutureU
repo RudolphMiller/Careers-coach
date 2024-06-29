@@ -1,0 +1,117 @@
+Here's a detailed plan and a sample code for a website called "FutureU" designed to guide high school students and underrepresented individuals towards potential careers. The website will include images, text, links to free education, pros and cons, median salaries, and demand information for each career.
+
+### Plan
+
+1. **Homepage:**
+   - Title: FutureU
+   - Introduction: A brief overview of the website's purpose.
+   - Navigation: Links to different career pages.
+
+2. **Career Pages:**
+   - For each career, provide:
+     - Overview
+     - Links to free educational resources
+     - Pros and cons
+     - Median salary information
+     - Present and future demand
+
+3. **Educational Resources:**
+   - Links to platforms like Coursera, MIT Open Learning, Verizon Skill Forward, Google Skill Boost, AWS Free Skill Builder, Nvidia Learning Path, Microsoft Learning via LinkedIn Learning, and FreeCodeCamp.
+
+### Sample Code
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FutureU - Explore Your Future</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>FutureU</h1>
+        <p>Empowering students and underrepresented individuals to find their path in life</p>
+        <nav>
+            <ul>
+                <li><a href="#tech-careers">Tech Careers</a></li>
+                <li><a href="#management-careers">Management Careers</a></li>
+                <li><a href="#short-careers">Short Learning Careers</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="tech-careers">
+        <h2>Tech Careers</h2>
+        <article>
+            <h3>Cybersecurity</h3>
+            <img src="images/cybersecurity.jpg" alt="Cybersecurity">
+            <p>Cybersecurity professionals protect systems and networks from cyber attacks.</p>
+            <p><strong>Median Salary:</strong> $98,350</p>
+            <p><strong>Demand:</strong> High and growing</p>
+            <p><strong>Pros:</strong> High demand, good salary, challenging work</p>
+            <p><strong>Cons:</strong> Stressful, requires continuous learning</p>
+            <p><strong>Free Courses:</strong></p>
+            <ul>
+                <li><a href="https://www.coursera.org">Coursera</a></li>
+                <li><a href="https://ocw.mit.edu">MIT Open Learning</a></li>
+                <li><a href="https://www.linkedin.com/learning">LinkedIn Learning</a></li>
+            </ul>
+        </article>
+        <!-- Repeat similar blocks for other tech careers like Prompt Engineering, Data Analyst, etc. -->
+    </section>
+
+    <section id="management-careers">
+        <h2>Management Careers</h2>
+        <article>
+            <h3>Project Management</h3>
+            <img src="images/project-management.jpg" alt="Project Management">
+            <p>Project managers plan, execute, and close projects efficiently.</p>
+            <p><strong>Median Salary:</strong> $75,000</p>
+            <p><strong>Demand:</strong> Steady</p>
+            <p><strong>Pros:</strong> High responsibility, leadership roles</p>
+            <p><strong>Cons:</strong> High stress, requires multitasking</p>
+            <p><strong>Free Courses:</strong></p>
+            <ul>
+                <li><a href="https://www.coursera.org">Coursera</a></li>
+                <li><a href="https://ocw.mit.edu">MIT Open Learning</a></li>
+                <li><a href="https://www.linkedin.com/learning">LinkedIn Learning</a></li>
+            </ul>
+        </article>
+        <!-- Repeat similar blocks for other management careers like Product Management, etc. -->
+    </section>
+
+    <section id="short-careers">
+        <h2>Short Learning Careers</h2>
+        <article>
+            <h3>Radiation Technician</h3>
+            <img src="images/radiation-technician.jpg" alt="Radiation Technician">
+            <p>Radiation technicians operate machines used in medical imaging and treatments.</p>
+            <p><strong>Median Salary:</strong> $60,000</p>
+            <p><strong>Demand:</strong> Steady</p>
+            <p><strong>Pros:</strong> Good salary, impactful work</p>
+            <p><strong>Cons:</strong> Exposure to radiation, requires precision</p>
+            <p><strong>Free Courses:</strong></p>
+            <ul>
+                <li><a href="https://www.coursera.org">Coursera</a></li>
+                <li><a href="https://ocw.mit.edu">MIT Open Learning</a></li>
+                <li><a href="https://www.linkedin.com/learning">LinkedIn Learning</a></li>
+            </ul>
+        </article>
+        <!-- Repeat similar blocks for other short learning careers like Flight Control Operator, Air Dispatcher, etc. -->
+    </section>
+
+    <footer>
+        <p>&copy; 2024 FutureU. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+```
+
+### Additional Notes
+- **CSS File (`styles.css`):** Include a CSS file to style the website to make it visually appealing.
+- **Images:** Use relevant images for each career to make the site more engaging.
+- **Content Updates:** Regularly update the content, especially salary and demand information, as these can change over time.
+
+You can expand this template further to include more careers, additional educational resources, testimonials, success stories, and interactive features to make the website more comprehensive and engaging.
